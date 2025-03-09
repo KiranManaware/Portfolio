@@ -47,7 +47,7 @@ const Education = () => {
                 Vikrant Institute of Technology & Management, Borkhedi, Mhow |
               </p>
               <p className="text-sm text-white font-semibold">B.Tech | </p>
-              <p className="text-sm text-white font-semibold">84.4%</p>
+              <p className="text-sm text-white font-semibold">9.04</p>
             </span>
           </div>
         </div>
