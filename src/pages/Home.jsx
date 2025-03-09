@@ -20,7 +20,7 @@ const Home = () => {
           intuitive, user-friendly, and visually appealing web applications.
           Welcome to my portfolio—explore my projects and let's connect
         </p>
-        <button className="font-semibold textwhite bg-[#A18877] text-white py-2 rounded hover:bg-[#14355A] hover:border duration-300 hover:scale-105 my-3 text-lg w-1/2">Contact me</button>
+        <button className="font-semibold textwhite bg-[#A18877] text-white py-2 rounded hover:bg-[#14355A] hover:border duration-300 hover:scale-105 my-3 text-lg w-1/2">FullStack Developer</button>
         
       </div>
       <div className="md:w-4/10  ">
