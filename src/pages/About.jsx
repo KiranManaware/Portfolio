@@ -5,8 +5,17 @@ import Experience from "../components/Experience";
 import bg2 from "../assets/bg2.png";
 
 const About = () => {
+  const gradientStyle={
+    background: "#141E30", // Fallback color
+    backgroundImage: "linear-gradient(to right,rgb(35, 64, 97),rgb(15, 24, 41))", // Gradient
+    color: "white"
+  }
+  const gradientButton={
+    background: "#141E30", // Fallback color
+    backgroundImage: "linear-gradient(to right,rgb(15, 24, 41),rgb(35, 64, 97))", // Gradient
+  }
   return (
-    <div className="bg-[#14355A] min-h-screen p-10">
+    <div style={gradientStyle} className="min-h-screen p-10">
       <div className="min-h-screen  flex md:flex-row flex-col ">
         <div className="md:w-4/10 ">
           <img src={bg2} className="w-full" alt="" />
@@ -25,17 +34,17 @@ const About = () => {
 
           <ul>
             <a href="#education">
-              <li className="font-semibold  arrow px-10 my-5 textwhite bg-[#A18877] text-white py-2 rounded hover:bg-[#14355A] hover:border duration-300 hover:scale-105 my-3 text-lg w-full">
+              <li style={gradientButton} className="font-semibold  arrow px-10 my-5 textwhite text-white py-2 rounded hover:bg-[#14355A] hover:border duration-300 hover:scale-105 my-3 text-lg w-full">
                 Education
               </li>
             </a>
             <a href="#skills">
-              <li className="font-semibold arrow px-10 my-5 textwhite bg-[#A18877] text-white py-2 rounded hover:bg-[#14355A] hover:border duration-300 hover:scale-105 my-3 text-lg w-full">
+              <li style={gradientButton} className="font-semibold arrow px-10 my-5 textwhite bg-[#A18877] text-white py-2 rounded hover:bg-[#14355A] hover:border duration-300 hover:scale-105 my-3 text-lg w-full">
                 Skills
               </li>
             </a>
             <a href="#experience">
-              <li className="font-semibold arrow px-10 my-5 textwhite bg-[#A18877] text-white py-2 rounded hover:bg-[#14355A] hover:border duration-300 hover:scale-105 my-3 text-lg w-full">
+              <li style={gradientButton} className="font-semibold arrow px-10 my-5 textwhite bg-[#A18877] text-white py-2 rounded hover:bg-[#14355A] hover:border duration-300 hover:scale-105 my-3 text-lg w-full">
                 Experience
               </li>
             </a>

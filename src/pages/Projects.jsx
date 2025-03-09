@@ -5,8 +5,16 @@ import project from "../assets/project.png";
 import FontendProject from "../components/FontendProject";
 import BackendProject from "../components/BackendProject";
 const Projects = () => {
+  const gradientStyle={
+    background: "#141E30", // Fallback color
+    backgroundImage: "linear-gradient(to right,rgb(35, 64, 97),rgb(15, 24, 41))", // Gradient
+  }
+  const gradientButton={
+    background: "#141E30", // Fallback color
+    backgroundImage: "linear-gradient(to right,rgb(15, 24, 41),rgb(35, 64, 97))", // Gradient
+  }
   return (
-    <div className="bg-[#14355A]">
+    <div style={gradientStyle}>
       <div className=" min-h-screen p-10 w-full p-5 flex flex-col md:flex-row items-center justify-between">
         <div className="md:w-6/10  ">
           <h1 className=" text-5xl mb-20 font-bold text-center text-white  ">
@@ -14,22 +22,22 @@ const Projects = () => {
           </h1>
           <ul>
             <a href="#UI">
-              <li className="font-semibold  arrow px-10 my-5 textwhite bg-[#A18877] text-white py-2 rounded hover:bg-[#14355A] hover:border duration-300 hover:scale-105 my-3 text-lg w-full">
+              <li style={gradientButton} className="font-semibold  arrow px-10 my-5 textwhite bg-[#A18877] text-white py-2 rounded hover:bg-[#14355A] hover:border duration-300 hover:scale-105 my-3 text-lg w-full">
                 UI Designs
               </li>
             </a>
             <a href="#Website">
-              <li className="font-semibold arrow px-10 my-5 textwhite bg-[#A18877] text-white py-2 rounded hover:bg-[#14355A] hover:border duration-300 hover:scale-105 my-3 text-lg w-full">
+              <li style={gradientButton} className="font-semibold arrow px-10 my-5 textwhite bg-[#A18877] text-white py-2 rounded hover:bg-[#14355A] hover:border duration-300 hover:scale-105 my-3 text-lg w-full">
                 Website Clone
               </li>
             </a>
-            <a href="#Fronted">
-              <li className="font-semibold arrow px-10 my-5 textwhite bg-[#A18877] text-white py-2 rounded hover:bg-[#14355A] hover:border duration-300 hover:scale-105 my-3 text-lg w-full">
+            <a href="#Frontend">
+              <li style={gradientButton} className="font-semibold arrow px-10 my-5 textwhite bg-[#A18877] text-white py-2 rounded hover:bg-[#14355A] hover:border duration-300 hover:scale-105 my-3 text-lg w-full">
                 Fronted Project
               </li>
             </a>
             <a href="#Full-stack">
-              <li className="font-semibold arrow px-10 my-5 textwhite bg-[#A18877] text-white py-2 rounded hover:bg-[#14355A] hover:border duration-300 hover:scale-105 my-3 text-lg w-full">
+              <li style={gradientButton} className="font-semibold arrow px-10 my-5 textwhite bg-[#A18877] text-white py-2 rounded hover:bg-[#14355A] hover:border duration-300 hover:scale-105 my-3 text-lg w-full">
                 Full-stack Project
               </li>
             </a>

@@ -4,9 +4,14 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const gradientStyle={
+    background: "#141E30", // Fallback color
+    backgroundImage: "linear-gradient(to right,rgb(35, 64, 97),rgb(15, 24, 41))", // Gradient
+    color: "white"
+  }
 
   return (
-    <nav  className="bg-[#14355A] p-4 border-b border-[#0c2138] shadow-xl  " >
+    <nav style={gradientStyle}  className="p-4  border-b border-gray-700 fixed w-full  " >
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-white text-2xl font-bold  ">My Portfolio</h1>
         <div className="hidden   md:flex space-x-6">

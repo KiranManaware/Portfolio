@@ -17,36 +17,46 @@ import img21 from "../assets/img21.png";
 import img22 from "../assets/img22.png";
 
 const Website = () => {
+  const gradientButton={
+    background: "#141E30", // Fallback color
+    backgroundImage: "linear-gradient(to right,rgb(15, 24, 41),rgb(35, 64, 97))", // Gradient
+    color:"white style={grdientStyle} "
+  }
+  const gradientStyle={
+    background: "#141E30", // Fallback color
+    backgroundImage: "linear-gradient(to right,rgb(35, 64, 97),rgb(15, 24, 41))", // Gradient
+    color: "white"
+  }
   return (
     <div id="Website" className="pl-15">
       <h2 className="font-bold text-5xl text-center my-5  text-white p-4 ">
         Website Clones
       </h2>
       <div className="grid md:grid-cols-3 gap-10">
-        <div class="max-w-sm  rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
+        <div style={gradientButton} class="max-w-sm  rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
           <img class="w-full" src={img7} alt="Sunset in the mountains" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">StarBucks Clone</div>
-            <p class="text-gray-700 text-base">
+            <div class="font-bold text-xl mb-2 text-white">StarBucks Clone</div>
+            <p class="text-white text-base">
               This is a fully responsive Loan Website built using HTML and CSS.
               The website provides a seamless  interface for
               users to explore loan options.
             </p>
           </div>
-          <div class="px-6 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
             <a
               href="https://kiranmanaware.github.io/Starbucks/"
               className="font-bold text-lg"
             >
+          <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
-            </a>
           </div>
+            </a>
         </div>
-        <div class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
+        <div style={gradientButton} class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
           <img class="w-full" src={img8} alt="Sunset in the mountains" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Nothing Clone</div>
-            <p class="text-gray-700 text-base">
+            <div class="font-bold text-xl text-white mb-2">Nothing Clone</div>
+            <p class="text-white text-base">
             This is a fully responsive Loan Website built using HTML and CSS.
               The website provides a seamless  interface for
               users to explore loan options.
@@ -56,16 +66,16 @@ const Website = () => {
             href="https://kiranmanaware.github.io/Nothing-Clone/"
             className="font-bold text-lg"
           >
-            <div class="px-6 pt-4 pb-2 mb-3 bg-[#14355A] text-white text-center">
+            <div  style={gradientStyle} class="px-6  hover:scale-105 duration:300pt-4 pb-2 mb-3 bg-[#14355A] text-white text-center">
               View More
             </div>
           </a>
         </div>
-        <div class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
+        <div style={gradientButton} class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
           <img class="w-full" src={img9} alt="Sunset in the mountains" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Panfila Clone</div>
-            <p class="text-gray-700 text-base">
+            <div class="font-bold text-xl text-white mb-2">Panfila Clone</div>
+            <p class="text-white text-base">
             This is a fully responsive Loan Website built using HTML and CSS.
               The website provides a seamless  interface for
               users to explore loan options.
@@ -75,16 +85,16 @@ const Website = () => {
             href="https://kiranmanaware.github.io/PanfilaClone/"
             className="font-bold text-lg"
           >
-            <div class="px-6 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
+            <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
             </div>
           </a>
         </div>
-        <div class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
+        <div style={gradientButton} class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
           <img class="w-full" src={img10} alt="Sunset in the mountains" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Whatsapp Clone </div>
-            <p class="text-gray-700 text-base">
+            <div class="font-bold text-xl text-white mb-2">Whatsapp Clone </div>
+            <p class="text-white text-base">
             This is a fully responsive Loan Website built using HTML and CSS.
               The website provides a seamless  interface for
               users to explore loan options.
@@ -94,54 +104,54 @@ const Website = () => {
             href="https://kiranmanaware.github.io/WhatApp-Clone/"
             className="font-bold text-lg"
           >
-            <div class="px-6 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
+            <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
             </div>
           </a>
         </div>
-        <div class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
+        <div style={gradientButton} class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
           <img class="w-full" src={img11} alt="Sunset in the mountains" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Jetcost Website Clone</div>
-            <p class="text-gray-700 text-base">
+            <div class="font-bold text-xl text-white mb-2">Jetcost Website Clone</div>
+            <p class="text-white text-base">
             This is a fully responsive Loan Website built using HTML and CSS.
               The website provides a seamless  interface for
               users to explore loan options.
             </p>
           </div>
-          <div class="px-6 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
             <a
               href="https://kiranmanaware.github.io/Jet-Cost-18Jul/"
               className="font-bold text-lg"
             >
+          <div style={gradientStyle}  class="px-6 hover:scale duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
-            </a>
           </div>
+            </a>
         </div>
-        <div class="max-w-sm  rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
+        <div style={gradientButton} class="max-w-sm  rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
           <img class="w-full" src={img12} alt="Sunset in the mountains" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Netflix Clone</div>
-            <p class="text-gray-700 text-base">
+            <div class="font-bold text-xl text-white mb-2">Netflix Clone</div>
+            <p class="text-white text-base">
             This is a fully responsive Loan Website built using HTML and CSS.
               The website provides a seamless  interface for
               users to explore loan options.
             </p>
           </div>
-          <div class="px-6 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
             <a
               href="https://kiranmanaware.github.io/Kiran-snetflix/"
               className="font-bold text-lg"
             >
+          <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
-            </a>
           </div>
+            </a>
         </div>
-        <div class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
+        <div style={gradientButton} class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
           <img class="w-full" src={img13} alt="Sunset in the mountains" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Krystal Website Clone</div>
-            <p class="text-gray-700 text-base">
+            <div class="font-bold text-white text-xl mb-2">Krystal Website Clone</div>
+            <p class="text-white text-base">
             This is a fully responsive Loan Website built using HTML and CSS.
               The website provides a seamless  interface for
               users to explore loan options.
@@ -151,16 +161,16 @@ const Website = () => {
             href="https://kiranmanaware.github.io/KrystalClone/"
             className="font-bold text-lg"
           >
-            <div class="px-6 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
+            <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
             </div>
           </a>
         </div>
-        <div class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
+        <div style={gradientButton} class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
           <img class="w-full" src={img14} alt="Sunset in the mountains" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Hindustan Website Clone</div>
-            <p class="text-gray-700 text-base">
+            <div class="font-bold text-white text-xl mb-2">Hindustan Website Clone</div>
+            <p class="text-white text-base">
             This is a fully responsive Loan Website built using HTML and CSS.
               The website provides a seamless  interface for
               users to explore loan options.
@@ -170,16 +180,16 @@ const Website = () => {
             href="https://kiranmanaware.github.io/Hindustan-Pencils-Clone/"
             className="font-bold text-lg"
           >
-            <div class="px-6 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
+            <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
             </div>
           </a>
         </div>
-        <div class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
+        <div style={gradientButton} class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
           <img class="w-full" src={img15} alt="Sunset in the mountains" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Fruit Nuts Website Clone </div>
-            <p class="text-gray-700 text-base">
+            <div class="font-bold text-white text-xl mb-2">Fruit Nuts Website Clone </div>
+            <p class="text-white text-base">
             This is a fully responsive Loan Website built using HTML and CSS.
               The website provides a seamless  interface for
               users to explore loan options.
@@ -189,60 +199,60 @@ const Website = () => {
             href="https://kiranmanaware.github.io/FuritsNut-Clone/"
             className="font-bold text-lg"
           >
-            <div class="px-6 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
+            <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
             </div>
           </a>
         </div>
-        <div class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
+        <div style={gradientButton} class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
           <img class="w-full" src={img16} alt="Sunset in the mountains" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Patel Paradise</div>
-            <p class="text-gray-700 text-base">
+            <div class="font-bold text-white text-xl mb-2">Patel Paradise</div>
+            <p class="text-white text-base">
             This is a fully responsive Loan Website built using HTML and CSS.
               The website provides a seamless  interface for
               users to explore loan options.
             </p>
           </div>
-          <div class="px-6 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
             <a
               href=" https://kiranmanaware.github.io/Petal-Paradise/"
               className="font-bold text-lg"
             >
+          <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
-            </a>
           </div>
+            </a>
         </div>
-        <div class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
+        <div style={gradientButton} class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
           <img class="w-full" src={img17} alt="Sunset in the mountains" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Food Zone</div>
-            <p class="text-gray-700 text-base">
+            <div class="font-bold text-white text-xl mb-2">Food Zone</div>
+            <p class="text-white text-base">
             This is a fully responsive Loan Website built using HTML and CSS.
               The website provides a seamless  interface for
               users to explore loan options.
             </p>
           </div>
-          <div class="px-6 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
             <a
               href=" https://kiranmanaware.github.io/Petal-Paradise/"
               className="font-bold text-lg"
             >
+          <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
-            </a>
           </div>
+            </a>
         </div>
-        <div class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
+        <div style={gradientButton} class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
           <img class="w-full" src={img18} alt="Sunset in the mountains" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Indriya Website clone</div>
-            <p class="text-gray-700 text-base">
+            <div class="font-bold text-white text-xl mb-2">Indriya Website clone</div>
+            <p class="text-white  text-base">
             This is a fully responsive Loan Website built using HTML and CSS.
               The website provides a seamless  interface for
               users to explore loan options.
             </p>
           </div>
-          <div class="px-6 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
+          <div style={gradientStyle} class="px-6 pt-4 pb-2 mb-3 hover:scale=1-5 duration-300 bg-[#14355A] text-white text-center">
             <a
               href="https://kiranmanaware.github.io/Indriya-clone/"
               className="font-bold text-lg"
@@ -251,62 +261,62 @@ const Website = () => {
             </a>
           </div>
         </div>
-        <div class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
+        <div style={gradientButton} class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3">
           <img class="w-full" src={img19} alt="Sunset in the mountains" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Jio Website Website</div>
-            <p class="text-gray-700 text-base">
+            <div class="font-bold text-white  text-xl mb-2">Jio Website Website</div>
+            <p class="text-white  text-base">
             This is a fully responsive Loan Website built using HTML and CSS.
               The website provides a seamless  interface for
               users to explore loan options.
             </p>
           </div>
-          <div class="px-6 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
             <a
               href=" https://kiranmanaware.github.io/Jio-Website-Clone/"
               className="font-bold text-lg"
             >
+          <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
-            </a>
           </div>
+            </a>
         </div>
-        <div class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3"> 
+        <div style={gradientButton} class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3"> 
           <img class="w-full" src={img21} alt="Sunset in the mountains" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Pet-shop Website</div>
-            <p class="text-gray-700 text-base">
+            <div class="font-bold text-xl mb-2 text-white ">Pet-shop Website</div>
+            <p class="text-white  text-base">
             This is a fully responsive Loan Website built using HTML and CSS.
               The website provides a seamless  interface for
               users to explore loan options.
             </p>
           </div>
-          <div class="px-6 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
             <a
               href="https://kiranmanaware.github.io/Pet-Shop/"
               className="font-bold text-lg"
             >
+          <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
-            </a>
           </div>
+            </a>
         </div>
-        <div class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3"> 
+        <div style={gradientButton} class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3"> 
           <img class="w-full" src={img22} alt="Sunset in the mountains" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Pant paradise Website</div>
-            <p class="text-gray-700 text-base">
+            <div class="font-bold text-white  text-xl mb-2">Pant paradise Website</div>
+            <p class="text-white text-base">
             This is a fully responsive Loan Website built using HTML and CSS.
               The website provides a seamless  interface for
               users to explore loan options.
             </p>
           </div>
-          <div class="px-6 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
             <a
               href="https://kiranmanaware.github.io/Pet-Shop/"
               className="font-bold text-lg"
             >
+          <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
-            </a>
           </div>
+            </a>
         </div>
 
 

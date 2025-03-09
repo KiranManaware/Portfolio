@@ -3,8 +3,14 @@ import bg1 from "../assets/bg1.png";
 import TextChange from "../components/TextChange";
 
 const Home = () => {
+  const gradientStyle={
+    background: "#141E30", // Fallback color
+    backgroundImage: "linear-gradient(to right,rgb(35, 64, 97),rgb(15, 24, 41))", // Gradient
+    color: "white",
+    fontSize: "24px"
+  }
   return (
-    <div className=" min-h-screen w-full bg-[#14355A] md:p-20 p-10 flex md:flex-row flex-col wrap">
+    <div style={gradientStyle} className=" min-h-screen w-full  md:p-20 p-10 flex md:flex-row flex-col wrap">
       <div className="md:w-6/10 md:pt-20 pt-0 ">
         <p className="text-sm text-gray-400 font-semibold  ">
           Hello EveryOne
