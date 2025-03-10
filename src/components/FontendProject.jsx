@@ -9,7 +9,7 @@ const FontendProject = () => {
   return (
     <div id="Frontend"  className=" min-h-[50vh] my-10 flex flex-col md:flex-row p-10">
       <div className="md:w-1/2 p-5">
-      <h1 className="text-white font-bold text-4xl text-center">Fontend Project</h1>
+      <h1 className="text-white font-bold text-4xl text-center">Frontend Project</h1>
       <h2 className="text-white font-bold text-3xl my-3">Crypto Bazar</h2>
       <p className="text-white text-md ">
         Developed a major project, Crypto Bazar App, using React for the
@@ -21,7 +21,7 @@ const FontendProject = () => {
         authentication workflows, and creating dynamic, user-friendly
         interfaces.
       </p>
-      <a href="crypto-bazar123.netlify.app">
+      <a href="crypto-bazar123.netlify.app" target="_blank">
       <button style={gradientButton} className="w-full py-2 my-4 font-bold text-white text-lg bg-[#A18877] rounded">View Project</button>
       </a>
       </div>

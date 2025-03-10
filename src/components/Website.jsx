@@ -15,6 +15,8 @@ import img19 from "../assets/img19.png";
 import img20 from "../assets/img20.png";
 import img21 from "../assets/img21.png";
 import img22 from "../assets/img22.png";
+import img26 from "../assets/img26.png";
+import img27 from "../assets/img27.png";
 
 const Website = () => {
   const gradientButton={
@@ -46,6 +48,7 @@ const Website = () => {
             <a
               href="https://kiranmanaware.github.io/Starbucks/"
               className="font-bold text-lg"
+              target="_blank"
             >
           <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
@@ -65,6 +68,7 @@ const Website = () => {
           <a
             href="https://kiranmanaware.github.io/Nothing-Clone/"
             className="font-bold text-lg"
+            target="_blank"
           >
             <div  style={gradientStyle} class="px-6  hover:scale-105 duration:300pt-4 pb-2 mb-3 bg-[#14355A] text-white text-center">
               View More
@@ -84,6 +88,7 @@ const Website = () => {
           <a
             href="https://kiranmanaware.github.io/PanfilaClone/"
             className="font-bold text-lg"
+            target="_blank"
           >
             <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
@@ -103,6 +108,7 @@ const Website = () => {
           <a
             href="https://kiranmanaware.github.io/WhatApp-Clone/"
             className="font-bold text-lg"
+            target="_blank"
           >
             <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
@@ -122,6 +128,7 @@ const Website = () => {
             <a
               href="https://kiranmanaware.github.io/Jet-Cost-18Jul/"
               className="font-bold text-lg"
+              target="_blank"
             >
           <div style={gradientStyle}  class="px-6 hover:scale duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
@@ -141,6 +148,7 @@ const Website = () => {
             <a
               href="https://kiranmanaware.github.io/Kiran-snetflix/"
               className="font-bold text-lg"
+              target="_blank"
             >
           <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
@@ -160,6 +168,7 @@ const Website = () => {
           <a
             href="https://kiranmanaware.github.io/KrystalClone/"
             className="font-bold text-lg"
+            target="_blank"
           >
             <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
@@ -179,6 +188,7 @@ const Website = () => {
           <a
             href="https://kiranmanaware.github.io/Hindustan-Pencils-Clone/"
             className="font-bold text-lg"
+            target="_blank"
           >
             <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
@@ -198,6 +208,7 @@ const Website = () => {
           <a
             href="https://kiranmanaware.github.io/FuritsNut-Clone/"
             className="font-bold text-lg"
+            target="_blank"
           >
             <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
@@ -217,6 +228,7 @@ const Website = () => {
             <a
               href=" https://kiranmanaware.github.io/Petal-Paradise/"
               className="font-bold text-lg"
+              target="_blank"
             >
           <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
@@ -236,6 +248,7 @@ const Website = () => {
             <a
               href=" https://kiranmanaware.github.io/Petal-Paradise/"
               className="font-bold text-lg"
+              target="_blank"
             >
           <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
@@ -256,6 +269,7 @@ const Website = () => {
             <a
               href="https://kiranmanaware.github.io/Indriya-clone/"
               className="font-bold text-lg"
+              target="_blank"
             >
               View More
             </a>
@@ -274,6 +288,7 @@ const Website = () => {
             <a
               href=" https://kiranmanaware.github.io/Jio-Website-Clone/"
               className="font-bold text-lg"
+              target="_blank"
             >
           <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
               View More
@@ -281,7 +296,7 @@ const Website = () => {
             </a>
         </div>
         <div style={gradientButton} class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3"> 
-          <img class="w-full" src={img21} alt="Sunset in the mountains" />
+          <img class="w-full" src={img20} alt="Sunset in the mountains" />
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-white ">Pet-shop Website</div>
             <p class="text-white  text-base">
@@ -291,7 +306,28 @@ const Website = () => {
             </p>
           </div>
             <a
+            target="_blank"
               href="https://kiranmanaware.github.io/Pet-Shop/"
+              className="font-bold text-lg"
+            >
+          <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
+              View More
+          </div>
+            </a>
+        </div>
+        <div style={gradientButton} class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3"> 
+          <img class="w-full" src={img21} alt="Sunset in the mountains" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-white ">Pixer Studio Clone</div>
+            <p class="text-white  text-base">
+            This is a fully responsive Loan Website built using HTML and CSS.
+              The website provides a seamless  interface for
+              users to explore loan options.
+            </p>
+          </div>
+            <a
+            target="_blank"
+              href="https://kiranmanaware.github.io/Pixer-Studio-Clone/"
               className="font-bold text-lg"
             >
           <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
@@ -310,7 +346,48 @@ const Website = () => {
             </p>
           </div>
             <a
-              href="https://kiranmanaware.github.io/Pet-Shop/"
+              href="https://kiranmanaware.github.io/Plant-paradise/"
+              className="font-bold text-lg"
+              target="_blank"
+            >
+          <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
+              View More
+          </div>
+            </a>
+        </div>
+        <div style={gradientButton} class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3"> 
+          <img class="w-full" src={img26} alt="Sunset in the mountains" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-white  text-xl mb-2">MakeUp Artist Website</div>
+            <p class="text-white text-base">
+            This is a fully responsive Loan Website built using HTML and CSS.
+              The website provides a seamless  interface for
+              users to explore loan options.
+            </p>
+          </div>
+            <a
+            target="_blank"
+              href="https://kiranmanaware.github.io/Makeup-Artist/"
+              className="font-bold text-lg"
+            >
+          <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
+              View More
+          </div>
+            </a>
+        </div>
+        <div style={gradientButton} class="max-w-sm rounded overflow-hidden bg-[#A18877] shadow-lg p-3"> 
+          <img class="w-full" src={img27} alt="Sunset in the mountains" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-white  text-xl mb-2">Stationary Website</div>
+            <p class="text-white text-base">
+            This is a fully responsive Loan Website built using HTML and CSS.
+              The website provides a seamless  interface for
+              users to explore loan options.
+            </p>
+          </div>
+            <a
+              target="_blank"
+              href="https://kiranmanaware.github.io/Stationary-shop/"
               className="font-bold text-lg"
             >
           <div style={gradientStyle}  class="px-6 hover:scale-105 duration:300 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">

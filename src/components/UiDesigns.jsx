@@ -33,6 +33,7 @@ const UiDesigns = () => {
                 <a
                   href="https://kiranmanaware.github.io/StartCard/"
                   className="font-bold text-lg"
+                  target="_blank"
                 >
                   View More
                 </a>
@@ -50,6 +51,7 @@ const UiDesigns = () => {
                 <a
                   href="https://kiranmanaware.github.io/Plantoons/"
                   className="font-bold text-lg"
+                  target="_blank"
                 >
               <div style={gradientStyle} class="px-6 pt-4 pb-2 mb-3   duration-300 hover:scale-105 text-white text-center">
                   View More
@@ -68,6 +70,7 @@ const UiDesigns = () => {
                 <a
                   href="https://kiranmanaware.github.io/ISU-agency12Aug/"
                   className="font-bold text-lg"
+                  target="_blank"
                 >
               <div style={gradientStyle} class="px-6 pt-4 pb-2 mb-3  hover:scale-105 duration-300 text-white text-center">
                   View More
@@ -86,6 +89,7 @@ const UiDesigns = () => {
                 <a
                   href="https://kiranmanaware.github.io/Cashbank-11Aug/"
                   className="font-bold text-lg"
+                  target="_blank"
                 >
               <div style={gradientStyle} class="hover:scale-105 duration-300 px-6 pt-4 pb-2 mb-3  bg-[#14355A] text-white text-center">
                   View More
@@ -105,6 +109,7 @@ const UiDesigns = () => {
                 <a
                   href="https://kiranmanaware.github.io/Metafi-clone-9Aug/"
                   className="font-bold text-lg"
+                  target="_blank"
                 >
                   View More
                 </a>
@@ -123,6 +128,7 @@ const UiDesigns = () => {
                 <a
                   href="https://kiranmanaware.github.io/Pluraldsight_Login_page/"
                   className="font-bold text-lg"
+                  target="_blank"
                 >
                   View More
                 </a>
