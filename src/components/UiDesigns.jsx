@@ -17,7 +17,7 @@ const UiDesigns = () => {
     color: "white"
   }
   return (
-    <div id='UI'className='pl-15'>
+    <div id='UI'className='p-10'>
           <h2 className="font-bold text-5xl text-center my-5  text-white p-4 ">UI Designs Clones</h2>
           <div  className="grid md:grid-cols-3 gap-10 ">
             <div style={gradientButton} class="max-w-sm  rounded overflow-hidden bg-[#A18877]  shadow-lg p-3">

@@ -30,7 +30,7 @@ const Website = () => {
     color: "white"
   }
   return (
-    <div id="Website" className="pl-15">
+    <div id="Website" className="p-10">
       <h2 className="font-bold text-5xl text-center my-5  text-white p-4 ">
         Website Clones
       </h2>
