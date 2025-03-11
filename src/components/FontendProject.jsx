@@ -10,8 +10,8 @@ const FontendProject = () => {
     <div id="Frontend"  className=" min-h-[50vh] my-10 flex flex-col md:flex-row p-10">
       <div className="md:w-1/2 p-5">
       <h1 className="text-white font-bold text-4xl text-center">Frontend Project</h1>
-      <h2 className="text-white font-bold text-3xl my-3">Crypto Bazar</h2>
-      <p className="text-white text-md ">
+      <h2 className="text-white font-bold  text-3xl my-3">Crypto Bazar</h2>
+      <p  className="text-white text-md w-full text-justify ">
         Developed a major project, Crypto Bazar App, using React for the
         frontend and styled with Tailwind CSS. The app includes user
         authentication and allows users to purchase Bitcoin securely. It also

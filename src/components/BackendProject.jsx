@@ -22,7 +22,7 @@ const BackendProject = () => {
           <h2 className="text-white text-left font-bold text-3xl my-3">
             Legal Salaahkar
           </h2>
-          <p className="text-white text-md ">
+          <p className="text-white text-md w-full text-justify ">
             Victim-Lawyer Connect – A Secure Web Application This web
             application is designed to assist victims in finding and hiring
             lawyers while also helping lawyers connect with potential clients.
@@ -57,7 +57,7 @@ const BackendProject = () => {
           <h2 className="text-white text-left font-bold text-3xl my-3">
             Lapcare
           </h2>
-          <p className="text-white text-md ">
+          <p className="text-white text-md  w-full text-justify">
             I have created a Full-Stack project using MERN (MongoDB, Express.js,
             React.js, Node.js). In this project, there are two roles: User and
             Admin. The User can upload an image of their laptop and raise a
