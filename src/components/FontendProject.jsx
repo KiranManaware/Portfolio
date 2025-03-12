@@ -21,7 +21,7 @@ const FontendProject = () => {
         authentication workflows, and creating dynamic, user-friendly
         interfaces.
       </p>
-      <a href="crypto-bazar123.netlify.app" target="_blank">
+      <a href="https://crypto-bazar123.netlify.app/" target="_blank">
       <button style={gradientButton} className="w-full py-2 my-4 font-bold text-white text-lg bg-[#A18877] rounded">View Project</button>
       </a>
       </div>
