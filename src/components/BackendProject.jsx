@@ -39,7 +39,7 @@ const BackendProject = () => {
             intuitive platform to bridge the gap between victims seeking legal
             assistance and lawyers looking for clients. 🚀
           </p>
-          <a href="crypto-bazar123.netlify.app" target="_blank">
+          <a href="https://legal-salaahkar.vercel.app/" target="_blank">
             <button
               style={gradientButton}
               className="w-full py-2 my-4 font-bold text-white text-lg bg-[#A18877] rounded"
@@ -64,7 +64,7 @@ const BackendProject = () => {
             complaint about any issue they are facing. The Admin can review the
             raised issues and provide solutions accordingly.
           </p>
-          <a href="crypto-bazar123.netlify.app" target="_blank">
+          <a href="https://lapcare.vercel.app/login" target="_blank">
             <button
               style={gradientButton}
               className="w-full py-2 my-4 font-bold text-white text-lg bg-[#A18877] rounded"
