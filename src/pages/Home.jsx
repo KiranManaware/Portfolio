@@ -10,7 +10,7 @@ const Home = () => {
     fontSize: "24px"
   }
   return (
-    <div style={gradientStyle} className=" min-h-screen w-full  md:p-20 p-10 flex md:flex-row flex-col wrap">
+    <div style={gradientStyle} className=" min-h-screen w-full pt-30 md:p-20 p-10 flex md:flex-row flex-col wrap">
       <div className="md:w-6/10 md:pt-20 pt-0 ">
         <p className="text-sm text-gray-400 font-semibold  ">
           Hello EveryOne
@@ -26,7 +26,7 @@ const Home = () => {
           intuitive, user-friendly, and visually appealing web applications.
           Welcome to my portfolio—explore my projects and let's connect
         </p>
-        <button className="font-semibold textwhite bg-[#A18877] text-white py-2 rounded hover:bg-[#14355A] hover:border duration-300 hover:scale-105 my-3 text-lg w-1/2">FullStack Developer</button>
+        <button className="font-semibold textwhite w-full  bg-[#A18877] text-white py-2 rounded hover:bg-[#14355A] hover:border duration-300 hover:scale-105 my-3 text-lg md:w-1/2">FullStack Developer</button>
         
       </div>
       <div className="md:w-4/10  ">

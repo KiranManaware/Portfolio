@@ -7,7 +7,7 @@ const Skills = () => {
         backgroundImage: "linear-gradient(to right,rgb(15, 24, 41),rgb(35, 64, 97))", // Gradient
       }
     return (
-        <div id="skills" className="my-5">
+        <div id="skills" className="my-5 ">
             
             <div className="flex  justify-between md:flex-row flex-col">
                 <div className="md:w-3/10">
