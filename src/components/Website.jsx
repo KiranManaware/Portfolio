@@ -246,7 +246,7 @@ const Website = () => {
             </p>
           </div>
             <a
-              href=" https://kiranmanaware.github.io/Petal-Paradise/"
+              href="https://kiranmanaware.github.io/Foodzone-clone/"
               className="font-bold text-lg"
               target="_blank"
             >
