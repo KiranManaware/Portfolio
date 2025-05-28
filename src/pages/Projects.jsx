@@ -14,7 +14,7 @@ const Projects = () => {
     backgroundImage: "linear-gradient(to right,rgb(15, 24, 41),rgb(35, 64, 97))", // Gradient
   }
   return (
-    <div style={gradientStyle} className="pt-20">
+    <div style={gradientStyle} className="pt-20 border  ">
       <div className=" min-h-screen p-10 w-full p-5 flex flex-col md:flex-row items-center justify-between">
         <div className="md:w-6/10  ">
           <h1 className=" text-5xl mb-20 font-bold text-center text-white  ">
